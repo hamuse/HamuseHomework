@@ -74,7 +74,10 @@ app = (()=>{
 				width: '100%',
 				height: '100px',
 			 border:'1px solid pink',
-			 'text-align' :'center'
+			 color:'red',
+			 'font-weight': 'bold',
+			 'text-align' :'center',
+			 
 			})
 			.click(function(){
 				//a 태그랑  form 태그가 아니라서 e.prventeve 안해준다.
